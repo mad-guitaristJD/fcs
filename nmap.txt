@@ -1,0 +1,446 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-04-09 19:30 +0530
+Nmap scan report for 192.168.2.2
+Host is up (0.040s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.10
+Host is up (0.067s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.12
+Host is up (0.043s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.13
+Host is up (0.067s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.16
+Host is up (0.044s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for academics.iiitd.edu.in (192.168.2.18)
+Host is up (0.067s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.19
+Host is up (0.044s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.23
+Host is up (0.044s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.24
+Host is up (0.044s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.25
+Host is up (0.12s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.26
+Host is up (0.12s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.27
+Host is up (0.042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.48
+Host is up (0.082s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.49
+Host is up (0.082s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.51
+Host is up (0.082s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for armsdev.iiitd.edu.in (192.168.2.61)
+Host is up (0.064s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for hmaster.iiitd.edu.in (192.168.2.64)
+Host is up (0.064s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for hdata1.iiitd.edu.in (192.168.2.65)
+Host is up (0.061s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for hdata2.iiitd.edu.in (192.168.2.66)
+Host is up (0.039s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.69
+Host is up (0.058s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for admin.kushalmaa.iiitd.edu.in (192.168.2.71)
+Host is up (0.058s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.82
+Host is up (0.066s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.83
+Host is up (0.066s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.86
+Host is up (0.066s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.89
+Host is up (0.066s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.90
+Host is up (0.066s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.92
+Host is up (0.066s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.108
+Host is up (0.051s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.109
+Host is up (0.054s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.111
+Host is up (0.054s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.112
+Host is up (0.054s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.113
+Host is up (0.054s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.114
+Host is up (0.054s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.115
+Host is up (0.054s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.117
+Host is up (0.054s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.118
+Host is up (0.051s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.119
+Host is up (0.051s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.120
+Host is up (0.040s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.125
+Host is up (0.040s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for www.esya.iiitd.ac.in (192.168.2.127)
+Host is up (0.040s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.129
+Host is up (0.040s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for inventory.iiitd.edu.in (192.168.2.134)
+Host is up (0.037s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.156
+Host is up (0.065s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.160
+Host is up (0.039s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.162
+Host is up (0.058s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.212
+Host is up (0.064s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for perp.iiitd.edu.in (192.168.2.217)
+Host is up (0.053s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.220
+Host is up (0.064s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.221
+Host is up (0.039s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.222
+Host is up (0.039s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.224
+Host is up (0.039s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for reggen.iiitd.edu.in (192.168.2.225)
+Host is up (0.042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.226
+Host is up (0.042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.228
+Host is up (0.042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.233
+Host is up (0.042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.234
+Host is up (0.042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.235
+Host is up (0.042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.236
+Host is up (0.042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.237
+Host is up (0.042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.238
+Host is up (0.042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.239
+Host is up (0.042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.241
+Host is up (0.042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.242
+Host is up (0.068s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.243
+Host is up (0.072s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.244
+Host is up (0.070s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.245
+Host is up (0.070s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.246
+Host is up (0.070s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.247
+Host is up (0.070s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.248
+Host is up (0.070s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.249
+Host is up (0.070s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.250
+Host is up (0.043s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.251
+Host is up (0.040s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.252
+Host is up (0.040s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.2.254
+Host is up (0.040s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 256 IP addresses (81 hosts up) scanned in 4.35 seconds

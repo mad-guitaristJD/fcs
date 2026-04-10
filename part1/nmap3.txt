@@ -1,0 +1,900 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2026-04-10 05:21 UTC
+Stats: 0:00:10 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan
+Ping Scan Timing: About 2.61% done; ETC: 05:28 (0:06:14 remaining)
+Stats: 0:00:26 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan
+Ping Scan Timing: About 6.25% done; ETC: 05:28 (0:06:30 remaining)
+Stats: 0:00:26 elapsed; 0 hosts completed (0 up), 4096 undergoing Ping Scan
+Ping Scan Timing: About 6.30% done; ETC: 05:28 (0:06:27 remaining)
+Stats: 0:36:39 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 18.30% done; ETC: 08:14 (2:15:46 remaining)
+Stats: 1:13:08 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 23.84% done; ETC: 10:08 (3:33:41 remaining)
+Stats: 1:48:24 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 36.99% done; ETC: 10:04 (2:54:04 remaining)
+Stats: 1:48:25 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 36.99% done; ETC: 10:04 (2:54:05 remaining)
+Warning: 192.168.33.18 giving up on port because retransmission cap hit (10).
+Warning: 192.168.32.6 giving up on port because retransmission cap hit (10).
+Warning: 192.168.32.170 giving up on port because retransmission cap hit (10).
+Warning: 192.168.33.139 giving up on port because retransmission cap hit (10).
+Stats: 4:22:44 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 90.69% done; ETC: 10:10 (0:26:19 remaining)
+Stats: 4:55:12 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 92.84% done; ETC: 10:39 (0:22:17 remaining)
+Stats: 4:55:13 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 92.84% done; ETC: 10:39 (0:22:17 remaining)
+Warning: 192.168.33.185 giving up on port because retransmission cap hit (10).
+Stats: 5:36:22 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 95.57% done; ETC: 11:13 (0:15:17 remaining)
+Stats: 6:40:59 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 96.34% done; ETC: 12:17 (0:14:59 remaining)
+Stats: 6:41:21 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 96.36% done; ETC: 12:18 (0:14:54 remaining)
+Warning: 192.168.32.156 giving up on port because retransmission cap hit (10).
+Stats: 7:27:45 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.04% done; ETC: 12:53 (0:04:18 remaining)
+Stats: 7:28:41 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.07% done; ETC: 12:54 (0:04:11 remaining)
+Warning: 192.168.32.120 giving up on port because retransmission cap hit (10).
+Stats: 8:08:38 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.74% done; ETC: 13:31 (0:01:15 remaining)
+Stats: 8:08:39 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.74% done; ETC: 13:31 (0:01:15 remaining)
+Stats: 8:08:58 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.74% done; ETC: 13:32 (0:01:14 remaining)
+Stats: 8:09:00 elapsed; 1781 hosts completed (64 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.75% done; ETC: 13:32 (0:01:14 remaining)
+Nmap scan report for 192.168.32.0
+Host is up (0.00020s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.32 (93%), Linux 3.10 (93%), Linux 3.10 - 4.11 (93%), Linux 3.2 - 4.9 (93%), Linux 3.4 - 3.10 (93%), Linux 2.6.32 - 3.10 (92%), Linux 2.6.32 - 3.13 (92%), Synology DiskStation Manager 5.2-5644 (91%), Linux 2.6.22 - 2.6.36 (89%), Linux 2.6.39 (89%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.32.1
+Host is up (0.00051s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE
+2002/tcp open  globe
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.32.3
+Host is up (0.0042s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=5000%CT=1%CU=32235%PV=Y%DS=2%DC=I%G=Y%TM=69D90
+OS:3EA%P=x86_64-pc-linux-gnu)SEQ(SP=109%GCD=1%ISR=109%TI=Z%CI=RD%II=RI%TS=2
+OS:1)OPS(O1=M5B4NW6NNT11SLL%O2=M5B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NN
+OS:T11SLL%O5=M5B4NW6NNT11SLL%O6=M5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4
+OS:=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=Y%Q=)T1(R
+OS:=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=
+OS:A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=
+OS:Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR
+OS:%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD
+OS:=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.32.6
+Host is up (0.089s latency).
+Not shown: 987 closed ports
+PORT      STATE    SERVICE
+465/tcp   filtered smtps
+500/tcp   filtered isakmp
+1043/tcp  filtered boinc
+1122/tcp  filtered availant-mgr
+1141/tcp  filtered mxomss
+1443/tcp  filtered ies-lm
+1583/tcp  filtered simbaexpress
+1864/tcp  filtered paradym-31
+3322/tcp  filtered active-net
+3878/tcp  filtered fotogcad
+5357/tcp  filtered wsdapi
+8081/tcp  filtered blackice-icecap
+13783/tcp filtered netbackup
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.32.10
+Host is up (0.00038s latency).
+Not shown: 995 filtered ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+23/tcp    open  telnet
+80/tcp    open  http
+443/tcp   open  https
+16113/tcp open  unknown
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: remote management|general purpose
+Running (JUST GUESSING): Cisco AireOS 8.X (98%), Linux 2.6.X (98%)
+OS CPE: cpe:/o:cisco:aireos:8.2 cpe:/o:linux:linux_kernel:2.6.21
+Aggressive OS guesses: Cisco AireOS 8.2 (Linux 2.6.21) (98%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.32.11
+Host is up (0.00029s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+443/tcp open  https
+Aggressive OS guesses: Cisco 1921 router (IOS 15.1) (96%), Cisco 1841 router (IOS 12) (90%), Cisco 1841 router (IOS 12.4) (90%), Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1) (90%), Cisco 860 or 870 router (IOS 12.4) (90%), Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0) (90%), Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP (90%), Cisco 1900-series router (IOS 15.4) (90%), Cisco Aironet 2600-series WAP (IOS 15.2(2)) (90%), Cisco 877 router (IOS 12.4) (90%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.32.12
+Host is up (0.00037s latency).
+Not shown: 991 filtered ports
+PORT      STATE  SERVICE
+22/tcp    open   ssh
+23/tcp    open   telnet
+80/tcp    open   http
+443/tcp   open   https
+444/tcp   open   snpp
+1000/tcp  closed cadlock
+3128/tcp  closed squid-http
+8080/tcp  closed http-proxy
+16113/tcp open   unknown
+Device type: remote management
+Running (JUST GUESSING): Cisco AireOS 8.X (85%)
+OS CPE: cpe:/o:cisco:aireos:8.0.140.0
+Aggressive OS guesses: Cisco AireOS 8.0.140.0 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.32.79
+Host is up (0.10s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+5000/tcp open     upnp
+5033/tcp filtered jtnetd-server
+6025/tcp filtered x11
+7000/tcp open     afs3-fileserver
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.32.84
+Host is up (0.0083s latency).
+Not shown: 867 closed ports, 130 filtered ports
+PORT      STATE SERVICE
+5000/tcp  open  upnp
+7000/tcp  open  afs3-fileserver
+49152/tcp open  unknown
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=5000%CT=1%CU=31938%PV=Y%DS=2%DC=I%G=Y%TM=69D90
+OS:3EA%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=101%TI=Z%CI=RD%II=RI%TS=2
+OS:1)OPS(O1=M5B4NW6NNT11SLL%O2=M5B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M564NW6NN
+OS:T11SLL%O5=M5B4NW6NNT11SLL%O6=M5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4
+OS:=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=Y%Q=)T1(R
+OS:=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=
+OS:A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=
+OS:Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR
+OS:%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUC
+OS:K=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.32.88
+Host is up (0.0040s latency).
+Not shown: 705 closed ports, 293 filtered ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=5000%CT=1%CU=30494%PV=Y%DS=2%DC=I%G=Y%TM=69D90
+OS:3EA%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=109%TI=Z%CI=RD%TS=21)SEQ(
+OS:SP=107%GCD=1%ISR=109%TI=Z%CI=RD%II=RI%TS=21)OPS(O1=M5B4NW6NNT11SLL%O2=M5
+OS:B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%O6=M
+OS:5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%
+OS:DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=
+OS:0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF
+OS:=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=
+OS:%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%I
+OS:PL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.32.90
+Host is up (0.010s latency).
+All 1000 scanned ports on 192.168.32.90 are filtered (581) or closed (419)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.32.120
+Host is up (0.023s latency).
+Not shown: 740 filtered ports, 259 closed ports
+PORT     STATE SERVICE
+7070/tcp open  realserver
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.32.152
+Host is up (0.033s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.32.156
+Host is up (0.028s latency).
+Not shown: 532 closed ports, 467 filtered ports
+PORT     STATE SERVICE
+5001/tcp open  commplex-link
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.32.170
+Host is up (0.061s latency).
+All 1000 scanned ports on 192.168.32.170 are filtered (659) or closed (341)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Cisco Nexus 5548P switch (NX-OS 5.1) (96%), VMware ESXi 5.0 (96%), Apple iOS 10 (96%), Apple iOS 9.3.2 (Darwin 15.5.0) (96%), Cisco Wireless LAN controller (96%), Cisco Nexus 7010 switch (NX-OS 5) (96%), Cisco Nexus 7010 switch (NX-OS 5.1(2)) (96%), Cisco Nexus switch (NX-OS 5.1(3)) (96%), FreeBSD 8.0-RC1-p1 (96%), Cisco Adaptive Security Appliance (ASA 8.4) (88%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.32.179
+Host is up (0.018s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=53%CT=1%CU=35704%PV=Y%DS=2%DC=I%G=Y%TM=69D903E
+OS:A%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=10F%TI=Z%CI=RI%II=RI%TS=22)
+OS:ECN(R=Y%DF=N%T=40%W=FFFF%O=M5B4NW6SLL%CC=Y%Q=)T1(R=Y%DF=N%T=40%S=O%A=S+%
+OS:F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T
+OS:5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=40%W=0%S=A%A=
+OS:Z%F=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=
+OS:G%RUCK=0%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.32.187
+Host is up (0.018s latency).
+Not shown: 671 filtered ports, 328 closed ports
+PORT     STATE SERVICE
+7000/tcp open  afs3-fileserver
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.32.192
+Host is up (0.019s latency).
+Not shown: 997 closed ports
+PORT      STATE SERVICE
+5000/tcp  open  upnp
+7000/tcp  open  afs3-fileserver
+60020/tcp open  unknown
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.32.199
+Host is up (0.017s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+
+Nmap scan report for 192.168.32.254
+Host is up (0.00030s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+443/tcp open  https
+Aggressive OS guesses: Cisco 1921 router (IOS 15.1) (95%), Cisco 1841 router (IOS 12.4) (90%), Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1) (90%), Cisco 860 or 870 router (IOS 12.4) (90%), Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0) (90%), Cisco Aironet 2600-series WAP (IOS 15.2(2)) (90%), Cisco IOS 12.4 or IOS-XE 15.3 (90%), Cisco C860 router (IOS 15.2) (90%), Cisco 1841 router (IOS 12) (89%), Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP (89%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.32.255
+Host is up (0.00030s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+443/tcp open  https
+Aggressive OS guesses: Cisco 1921 router (IOS 15.1) (96%), Cisco 1841 router (IOS 12) (90%), Cisco 1841 router (IOS 12.4) (90%), Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1) (90%), Cisco 860 or 870 router (IOS 12.4) (90%), Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0) (90%), Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP (90%), Cisco 1900-series router (IOS 15.4) (90%), Cisco Aironet 2600-series WAP (IOS 15.2(2)) (90%), Cisco 877 router (IOS 12.4) (90%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.33.6
+Host is up (0.0031s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8080/tcp open  http-proxy
+8081/tcp open  blackice-icecap
+8443/tcp open  https-alt
+8888/tcp open  sun-answerbook
+9000/tcp open  cslistener
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=8008%CT=1%CU=43297%PV=Y%DS=2%DC=I%G=Y%TM=69D90
+OS:3EA%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10B%TI=Z%CI=Z%II=I%TS=A)S
+OS:EQ(SP=103%GCD=1%ISR=10B%TI=Z%CI=Z%TS=A)OPS(O1=M4E2ST11NW6%O2=M4E2ST11NW6
+OS:%O3=M4E2NNT11NW6%O4=M4E2ST11NW6%O5=M4E2ST11NW6%O6=M4E2ST11)WIN(W1=FFFF%W
+OS:2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M4E2NN
+OS:SNW6%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y
+OS:%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR
+OS:%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40
+OS:%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G
+OS:%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.33.18
+Host is up (0.0058s latency).
+Not shown: 602 closed ports, 395 filtered ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+5500/tcp open  hotline
+7000/tcp open  afs3-fileserver
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=5000%CT=1%CU=30476%PV=Y%DS=2%DC=I%G=Y%TM=69D90
+OS:3EA%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10C%TI=Z%CI=RD%TS=21)SEQ(
+OS:SP=107%GCD=1%ISR=10C%TI=Z%CI=RD%II=RI%TS=21)OPS(O1=M5B4NW6NNT11SLL%O2=M5
+OS:B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%O6=M
+OS:5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%
+OS:DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=
+OS:0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF
+OS:=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=
+OS:%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%I
+OS:PL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.33.24
+Host is up (0.0099s latency).
+Not shown: 928 closed ports, 65 filtered ports
+PORT     STATE SERVICE
+3000/tcp open  ppp
+3001/tcp open  nessus
+3306/tcp open  mysql
+5000/tcp open  upnp
+5002/tcp open  rfe
+7000/tcp open  afs3-fileserver
+8080/tcp open  http-proxy
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.33.36
+Host is up (0.0074s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running: iPXE 1.X, Linux 2.4.X|2.6.X, Sony Ericsson embedded
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+OS details: iPXE 1.0.0+, Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22), Sony Ericsson U8i Vivaz mobile phone
+
+Nmap scan report for 192.168.33.37
+Host is up (0.0057s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+445/tcp  open  microsoft-ds
+5000/tcp open  upnp
+5900/tcp open  vnc
+7000/tcp open  afs3-fileserver
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.33.44
+Host is up (0.0090s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=5000%CT=1%CU=31824%PV=Y%DS=2%DC=I%G=Y%TM=69D90
+OS:3EA%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10A%TI=Z%CI=RD%TS=21)SEQ(
+OS:SP=101%GCD=1%ISR=10A%TI=Z%CI=RD%II=RI%TS=21)OPS(O1=M5B4NW6NNT11SLL%O2=M5
+OS:B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%O6=M
+OS:5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%
+OS:DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=
+OS:0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF
+OS:=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=
+OS:%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%I
+OS:PL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.33.79
+Host is up (0.029s latency).
+All 1000 scanned ports on 192.168.33.79 are closed
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.33.87
+Host is up (0.017s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=53%CT=1%CU=39059%PV=Y%DS=2%DC=I%G=Y%TM=69D903E
+OS:A%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10A%TI=Z%CI=RI%II=RI%TS=21)
+OS:SEQ(SP=105%GCD=1%ISR=10A%TI=Z%CI=RI%TS=21)OPS(O1=M5B4NW6NNT11SLL%O2=M5B4
+OS:NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%O6=M5B
+OS:4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF
+OS:=N%T=40%W=FFFF%O=M5B4NW6SLL%CC=Y%Q=)T1(R=Y%DF=N%T=40%S=O%A=S+%F=AS%RD=0%
+OS:Q=)T2(R=N)T3(R=N)T4(R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N
+OS:%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%R
+OS:D=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%R
+OS:UD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.33.97
+Host is up (0.0016s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.33.99
+Host is up (0.029s latency).
+Not shown: 603 filtered ports, 392 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+3306/tcp open  mysql
+7070/tcp open  realserver
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.33.139
+Host is up (0.042s latency).
+Not shown: 510 closed ports, 488 filtered ports
+PORT     STATE SERVICE
+88/tcp   open  kerberos-sec
+5000/tcp open  upnp
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.33.144
+Host is up (0.0070s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.33.145
+Host is up (0.0099s latency).
+Not shown: 840 closed ports, 158 filtered ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=5000%CT=1%CU=31806%PV=Y%DS=2%DC=I%G=Y%TM=69D90
+OS:3EA%P=x86_64-pc-linux-gnu)SEQ(SP=FB%GCD=1%ISR=10D%TI=Z%CI=RD%TS=22)SEQ(S
+OS:P=FA%GCD=1%ISR=10C%TI=Z%CI=RD%II=RI%TS=22)OPS(O1=M5B4NW6NNT11SLL%O2=M5B4
+OS:NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%O6=M5B
+OS:4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF
+OS:=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%
+OS:Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N
+OS:%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%R
+OS:D=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL
+OS:=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.33.147
+Host is up (0.019s latency).
+All 1000 scanned ports on 192.168.33.147 are filtered (606) or closed (394)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Cisco Nexus 5548P switch (NX-OS 5.1) (96%), VMware ESXi 5.0 (96%), Apple iOS 10 (96%), Apple iOS 9.3.2 (Darwin 15.5.0) (96%), Cisco Wireless LAN controller (96%), Cisco Nexus 7010 switch (NX-OS 5) (96%), Cisco Nexus 7010 switch (NX-OS 5.1(2)) (96%), Cisco Nexus switch (NX-OS 5.1(3)) (96%), FreeBSD 8.0-RC1-p1 (96%), Cisco Adaptive Security Appliance (ASA 8.4) (88%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.33.149
+Host is up (0.0045s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=5000%CT=1%CU=43279%PV=Y%DS=2%DC=I%G=Y%TM=69D90
+OS:3EA%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=108%TI=Z%CI=RD%II=RI%TS=2
+OS:1)OPS(O1=M5B4NW6NNT11SLL%O2=M5B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NN
+OS:T11SLL%O5=M5B4NW6NNT11SLL%O6=M5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4
+OS:=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=N%Q=)T1(R
+OS:=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=
+OS:A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=
+OS:Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR
+OS:%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD
+OS:=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.33.159
+Host is up (0.013s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=5000%CT=1%CU=30548%PV=Y%DS=2%DC=I%G=Y%TM=69D90
+OS:3EA%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=108%TI=Z%CI=RD%TS=21)SEQ(
+OS:SP=104%GCD=1%ISR=108%TI=Z%CI=RD%II=RI%TS=21)OPS(O1=M5B4NW6NNT11SLL%O2=M5
+OS:B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%O6=M
+OS:5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%
+OS:DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=
+OS:0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF
+OS:=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=
+OS:%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%I
+OS:PL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.33.160
+Host is up (0.023s latency).
+Not shown: 999 filtered ports
+PORT      STATE SERVICE
+10001/tcp open  scp-config
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|WAP|phone
+Running (JUST GUESSING): iPXE 1.X (91%), Linux 2.4.X|2.6.X (91%), Sony Ericsson embedded (91%)
+OS CPE: cpe:/o:ipxe:ipxe:1.0.0%2b cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:sonyericsson:u8i_vivaz
+Aggressive OS guesses: iPXE 1.0.0+ (91%), Tomato 1.28 (Linux 2.4.20) (91%), Tomato firmware (Linux 2.6.22) (91%), Sony Ericsson U8i Vivaz mobile phone (91%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.33.170
+Host is up (0.052s latency).
+All 1000 scanned ports on 192.168.33.170 are closed
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 192.168.33.175
+Host is up (0.024s latency).
+Not shown: 954 closed ports, 44 filtered ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.33.178
+Host is up (0.0028s latency).
+All 1000 scanned ports on 192.168.33.178 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 192.168.33.184
+Host is up (0.063s latency).
+Not shown: 616 filtered ports, 383 closed ports
+PORT     STATE SERVICE
+7000/tcp open  afs3-fileserver
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.33.185
+Host is up (0.084s latency).
+All 1000 scanned ports on 192.168.33.185 are filtered (907) or closed (93)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Cisco Nexus 5548P switch (NX-OS 5.1) (96%), VMware ESXi 5.0 (96%), Apple iOS 10 (96%), Apple iOS 9.3.2 (Darwin 15.5.0) (96%), Cisco Wireless LAN controller (96%), Cisco Nexus 7010 switch (NX-OS 5) (96%), Cisco Nexus 7010 switch (NX-OS 5.1(2)) (96%), Cisco Nexus switch (NX-OS 5.1(3)) (96%), FreeBSD 8.0-RC1-p1 (96%), Cisco Adaptive Security Appliance (ASA 8.4) (88%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.33.198
+Host is up (0.0056s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=5000%CT=1%CU=40800%PV=Y%DS=2%DC=I%G=Y%TM=69D90
+OS:3EA%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=108%TI=Z%CI=RD%II=RI%TS=2
+OS:2)SEQ(SP=104%GCD=1%ISR=107%TI=Z%CI=RD%TS=22)OPS(O1=M5B4NW6NNT11SLL%O2=M5
+OS:B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%O6=M
+OS:5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%
+OS:DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=
+OS:0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF
+OS:=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=
+OS:%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%I
+OS:PL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.33.203
+Host is up (0.050s latency).
+All 1000 scanned ports on 192.168.33.203 are closed
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Cisco Nexus 5548P switch (NX-OS 5.1) (96%), VMware ESXi 5.0 (96%), Apple iOS 10 (96%), Apple iOS 9.3.2 (Darwin 15.5.0) (96%), Cisco Wireless LAN controller (96%), Cisco Nexus 7010 switch (NX-OS 5) (96%), Cisco Nexus 7010 switch (NX-OS 5.1(2)) (96%), Cisco Nexus switch (NX-OS 5.1(3)) (96%), FreeBSD 8.0-RC1-p1 (96%), Cisco Adaptive Security Appliance (ASA 8.4) (88%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.33.213
+Host is up (0.0033s latency).
+Not shown: 997 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+554/tcp   open  rtsp
+10000/tcp open  snet-sensor-mgmt
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=80%CT=1%CU=40250%PV=Y%DS=2%DC=I%G=Y%TM=69D903E
+OS:A%P=x86_64-pc-linux-gnu)SEQ(SP=FA%GCD=1%ISR=102%TI=Z%CI=I%II=I%TS=7)OPS(
+OS:O1=M550ST11NW3%O2=M550ST11NW3%O3=M550NNT11NW3%O4=M550ST11NW3%O5=M550ST11
+OS:NW3%O6=M550ST11)WIN(W1=6950%W2=6950%W3=6950%W4=6950%W5=6950%W6=6950)ECN(
+OS:R=Y%DF=Y%T=40%W=6A40%O=M550NNSNW3%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=
+OS:S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.33.251
+Host is up (0.032s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+6881/tcp open  bittorrent-tracker
+7000/tcp open  afs3-fileserver
+7070/tcp open  realserver
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.34.1
+Host is up (0.011s latency).
+Not shown: 990 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+999/tcp  open  garcon
+1021/tcp open  exp1
+1023/tcp open  netvenuechat
+2049/tcp open  nfs
+5900/tcp open  vnc
+8007/tcp open  ajp12
+8080/tcp open  http-proxy
+8081/tcp open  blackice-icecap
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=22%CT=1%CU=42067%PV=Y%DS=2%DC=I%G=Y%TM=69D903E
+OS:A%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10F%TI=Z%CI=RD%II=RI%TS=22)
+OS:SEQ(SP=108%GCD=1%ISR=10E%TI=Z%CI=RD%TS=22)OPS(O1=M5B4NW6NNT11SLL%O2=M5B4
+OS:NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%O6=M5B
+OS:4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF
+OS:=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%
+OS:Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N
+OS:%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%R
+OS:D=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL
+OS:=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.34.11
+Host is up (0.0083s latency).
+Not shown: 817 closed ports, 181 filtered ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=5000%CT=1%CU=42509%PV=Y%DS=2%DC=I%G=Y%TM=69D90
+OS:3EA%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10B%TI=Z%CI=RD%II=RI%TS=2
+OS:1)OPS(O1=M5B4NW6NNT11SLL%O2=M5B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NN
+OS:T11SLL%O5=M5B4NW6NNT11SLL%O6=M5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4
+OS:=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=Y%Q=)T1(R
+OS:=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=
+OS:A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=
+OS:Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR
+OS:%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD
+OS:=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.34.34
+Host is up (0.018s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.34.41
+Host is up (0.0046s latency).
+Not shown: 752 closed ports, 246 filtered ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=5000%CT=3%CU=32715%PV=Y%DS=2%DC=I%G=Y%TM=69D90
+OS:3EA%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10B%TI=Z%CI=RD%II=RI%TS=2
+OS:1)OPS(O1=M5B4NW6NNT11SLL%O2=M5B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=M5B4NW6NN
+OS:T11SLL%O5=M5B4NW6NNT11SLL%O6=M5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4
+OS:=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=N%Q=)T1(R
+OS:=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=
+OS:A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=
+OS:Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S%F=AR
+OS:%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD
+OS:=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.34.42
+Host is up (0.017s latency).
+Not shown: 866 closed ports, 132 filtered ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.34.52
+Host is up (0.0044s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+515/tcp  open  printer
+631/tcp  open  ipp
+9100/tcp open  jetdirect
+Aggressive OS guesses: Canon imageCLASS MF4500-, MF4700-, or MF4800-series printer (90%), Novatel MiFi 2200 3G WAP or iDirect Evolution X1 satellite router (90%), Brother HL-5070N printer (89%), Brother MFC-7820N printer (89%), Elk ELK-M1EXP Ethernet-to-serial bridge (87%), Canon imageCLASS MF212w printer (87%), Leica T camera (87%), Novatel MiFi 4620L WAP (87%), Tripp Lite SMART1500SLT UPS, or PDUMV30HVNET or PDUMH15AT power distribution unit (87%), TechniSat Digicorder HD S2 satellite receiver (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 64 hops
+
+Nmap scan report for 192.168.34.56
+Host is up (0.025s latency).
+All 1000 scanned ports on 192.168.34.56 are closed
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.34.84
+Host is up (0.0095s latency).
+Not shown: 814 closed ports, 185 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.34.88
+Host is up (0.0062s latency).
+Not shown: 666 closed ports, 332 filtered ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.34.89
+Host is up (0.13s latency).
+Not shown: 766 filtered ports, 233 closed ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.34.93
+Host is up (0.0058s latency).
+Not shown: 880 closed ports, 118 filtered ports
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+
+Nmap scan report for 192.168.34.137
+Host is up (0.0057s latency).
+Not shown: 599 filtered ports, 395 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+5432/tcp open  postgresql
+8090/tcp open  opsmessaging
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=135%CT=1%CU=31367%PV=Y%DS=2%DC=I%G=Y%TM=69D903
+OS:EA%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=2%ISR=10F%TI=I%II=I%SS=S%TS=A)OP
+OS:S(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8ST11%O5=M5B4NW
+OS:8ST11%O6=M5B4ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)EC
+OS:N(R=Y%DF=Y%T=80%W=FFFF%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R=N)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=80%IP
+OS:L=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.35.113
+Host is up (0.0061s latency).
+Not shown: 998 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+8402/tcp filtered abarsd
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/10%OT=22%CT=1%CU=36422%PV=Y%DS=2%DC=I%G=Y%TM=69D903E
+OS:A%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10F%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M5B4ST11NWA%O2=M5B4ST11NWA%O3=M5B4NNT11NWA%O4=M5B4ST11NWA%O5=M5B4ST1
+OS:1NWA%O6=M5B4ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN
+OS:(R=Y%DF=Y%T=40%W=FAF0%O=M5B4NNSNWA%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.39.23
+Host is up (0.0064s latency).
+All 1000 scanned ports on 192.168.39.23 are filtered (574) or closed (426)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+Nmap scan report for 192.168.39.29
+Host is up (0.016s latency).
+All 1000 scanned ports on 192.168.39.29 are filtered (523) or closed (477)
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for 192.168.39.45
+Host is up (0.023s latency).
+Not shown: 596 closed ports, 401 filtered ports
+PORT     STATE SERVICE
+3000/tcp open  ppp
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 192.168.39.52
+Host is up (0.086s latency).
+All 1000 scanned ports on 192.168.39.52 are filtered (932) or closed (68)
+Too many fingerprints match this host to give specific OS details
+
+Stats: 8:47:16 elapsed; 2396 hosts completed (128 up), 64 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 3.08% done; ETC: 15:32 (1:23:19 remaining)
